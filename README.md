@@ -12,3 +12,12 @@ A decision tree is a predictive model that uses a flowchart-like structure to ma
   The formula for Gini impurity is given as follows:
   
   <img width="187" alt="image" src="https://github.com/snehita1212/COVID-19_cases_and_mobility_predictor/assets/92868475/12c34309-029d-47f4-898b-b32910a40baa">
+  where pi is the probability of an object being classified to a particular class.
+
+# C4.5 Algorithm
+  C4.5 algorithm is an improvement over the ID-3 algorithm. The splitting criterion used by C4.5 is the normalized information gain (difference in entropy). The attribute with 
+  the highest normalized information gain is chosen to split nodes. The C4.5 algorithm then recurses on the partitioned sub-lists.
+  The formula for information gain is given as follows:
+
+  <img width="409" alt="image" src="https://github.com/snehita1212/COVID-19_cases_and_mobility_predictor/assets/92868475/fed79d9e-b877-4bb7-ad93-edaa67d39bc9">
+  where weighted entropy of all classes is removed from the total entropy.
