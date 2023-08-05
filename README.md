@@ -10,4 +10,5 @@ A decision tree is a predictive model that uses a flowchart-like structure to ma
   the basis of a threshold value of an attribute. The CART algorithm does that by searching for the best homogeneity for the subnodes, with the help of the Gini Index 
   criterion.
   The formula for Gini impurity is given as follows:
+  
   <img width="187" alt="image" src="https://github.com/snehita1212/COVID-19_cases_and_mobility_predictor/assets/92868475/12c34309-029d-47f4-898b-b32910a40baa">
